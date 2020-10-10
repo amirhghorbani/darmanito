@@ -1,0 +1,42 @@
+/* responsive for mobiles */
+
+/* @media only screen and (min-width: 320px ) {
+    .container {
+        width: 260px;
+        margin: 30px auto;
+        max-height: 4000px;
+    }
+    .container .header {
+        width: 100%;
+        height: 83px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container .header .title {
+        display: flex;
+        height: 45px;
+    }
+    .container .header .title .title-text {
+        margin-right: 10px;
+    }
+    .container .header .title .title-text h4 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .container .header .title .title-text p {
+        font-size: 10px;
+        font-weight: lighter;
+        margin: 10px 10px 0 0;
+    }
+    .container .header .drop-down-icon {
+        height: 25px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+  */
