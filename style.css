@@ -336,3 +336,127 @@
     font-size: 14px;
     margin-right: 50px;
 }
+
+
+/* section-4 */
+
+.section-4 {
+    width: 100%;
+    height: 612px;
+    background-color: #0089FF;
+}
+/* .section-4-bg {
+    display: flex;
+}
+.section-4-bg .section-4-bg1 {
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+}
+.section-4-bg .section-4-bg2  {
+   position: relative;
+   bottom: 100px;
+   left: 100px;
+} */
+
+.section-4-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-4-content .section-4-text {
+    align-self: center;
+}
+.section-4-content .section-4-text form {
+    width: 600px;
+}
+.section-4-content .section-4-text form .sec-4-title {}
+.section-4-content .section-4-text form .sec-4-title h2 {
+ color: white;
+ font-size: 24px;
+}
+.section-4-content .section-4-text form .sec-4-title p {
+    color: white;
+    font-size: 16px;
+    margin-top: 34px;
+}
+.section-4-content .section-4-text form .sec-4-input {
+    margin-top: 37px;
+    position: relative;
+}
+.section-4-content .section-4-text form .sec-4-input input {
+    width: 85%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+::placeholder {
+    padding-right: 50px;
+    font-size: 14px;
+    color: #666666;
+    opacity: .7;
+}
+.section-4-content .section-4-text form .sec-4-input button {
+    width: 23%;
+    font-size: 16px;
+    color: white;
+    background-color: #1894FF;
+    border-radius: 10px;
+    border: none;
+    padding: 13px 30px;
+    position: absolute;
+    left: 100px;
+    top: 8px;
+    cursor: pointer;
+}
+.section-4-content .section-4-text form .sec-4-input button:hover {
+    background-color: #1269b6;
+}
+.section-4-content .section-4-text form .sec-4-linkBtns {
+    margin-top: 52px;
+    display: flex;
+}
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btn {
+    background-color: #2361B5;
+    width: 40%;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btn:hover {
+   -webkit-box-shadow: 0px 0px 9px 5px	rgb(165, 213, 255, 0.8);
+   -moz-box-shadow: 0px 0px 9px 9px	rgb(165, 213, 255, 0.8);
+   box-shadow: 0px 0px 9px 5px	rgba(165, 213, 255, 0.8);;
+}
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btn a  {   
+    display: flex;
+    justify-content: flex-start;   
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btn a  .android{
+    padding: 12px 20px 0 0;
+}
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btn a p {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+img#sib-app {
+    width: 100%;
+    height: 55px;
+    object-fit: cover;
+}
+.section-4-content .section-4-img {
+    width: 340px;
+    height: 620px;
+    border-radius: 10px;
+}
+.section-4-content .section-4-img img {
+    width: 340px;
+    height: 620px;
+    object-fit: cover;
+}
