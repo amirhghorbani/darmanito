@@ -17,6 +17,9 @@
     display: flex;
     justify-content: space-between;
 }
+.minus-sign {
+    display: none;
+}
 
 /* title-logo */
 .container .header .title{
@@ -139,7 +142,7 @@
     position: relative;
     right: 250px;
 }
- .section-1 .section-1-img .img-back #doc  {
+.section-1 .section-1-img .img-back #doc  {
     position: absolute;
     top: 100px;
     right: 100px;
@@ -237,7 +240,6 @@
     border: 2px solid #00DE9A;
     margin-left: 10px;
     border-radius: 10px;
-
 }
 .section-3 .section-3-title h2 {
     color: #2361B5
@@ -418,7 +420,7 @@
     margin-top: 52px;
     display: flex;
 }
-.section-4-content .section-4-text form .sec-4-linkBtns .download-btn {
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btns {
     background-color: #2361B5;
     width: 40%;
     height: 55px;
@@ -426,22 +428,22 @@
     border-radius: 10px;
     margin-left: 16px;
 }
-.section-4-content .section-4-text form .sec-4-linkBtns .download-btn:hover {
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btns:hover {
    -webkit-box-shadow: 0px 0px 9px 5px	rgb(165, 213, 255, 0.8);
    -moz-box-shadow: 0px 0px 9px 9px	rgb(165, 213, 255, 0.8);
    box-shadow: 0px 0px 9px 5px	rgba(165, 213, 255, 0.8);;
 }
-.section-4-content .section-4-text form .sec-4-linkBtns .download-btn a  {   
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btns a  {   
     display: flex;
     justify-content: flex-start;   
     text-decoration: none;
     color: white;
     align-items: center;
 }
-.section-4-content .section-4-text form .sec-4-linkBtns .download-btn a  .android{
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btns a  .android{
     padding: 12px 20px 0 0;
 }
-.section-4-content .section-4-text form .sec-4-linkBtns .download-btn a p {
+.section-4-content .section-4-text form .sec-4-linkBtns .download-btns a p {
     margin-top: 10px;
     margin-right: 15px;
 }
