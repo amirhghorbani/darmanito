@@ -1,17 +1,18 @@
 const iconRes = document.getElementById('drop-icon');
 const dropdownNavBar = document.querySelector('#dropdown-nav-bar');
-const dropdownSrc = 'file:///Users/amirhghorbani/Documents/nahiraTech/darmanito-project-1/darmanito-pj-1/img/drop-down-icon.png';
+console.log(dropdownNavBar);
+console.log(iconRes.src)
 
 iconRes.addEventListener('click', iconChange);
 
 function iconChange(event) {
     event.preventDefault();
-    if (iconRes.src === dropdownSrc) {
+    if (iconRes.src === 'https://amirhghorbani.github.io/darmanito-pj-1/img/drop-down-icon.png') {
         iconRes.src = './img/X-icon.png';
         dropdownNavBar.style.display = 'block';
-    
+        console.log(iconRes.src)
     }else {
-        iconRes.src = './img/drop-down-icon.png';
+        iconRes.src = 'https://amirhghorbani.github.io/darmanito-pj-1/img/X-icon.png';
         dropdownNavBar.style.display = 'none';
     }
      
