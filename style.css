@@ -20,6 +20,9 @@
 .minus-sign {
     display: none;
 }
+.drop-down {
+    display: none;
+}
 
 /* title-logo */
 .container .header .title{
