@@ -94,6 +94,13 @@ nav .minus-sign {
   width: 20%;
   margin: 7px 10px;
 }
+.pStyle {
+  text-align: right;
+  color: red;
+  font-size: 12px;
+  position: relative;
+  top: 45px;
+} 
 
 .section-1 .sec1-content {
   width: 50%;
