@@ -43,6 +43,14 @@ nav .download-btn:hover {
   color: white;
 }
 
+nav .minus-sign {
+  display: none;
+}
+
+.drop-down {
+  display: none;
+}
+
 .section-1 {
   margin-top: 120px;
 }
@@ -285,7 +293,7 @@ nav .download-btn:hover {
   height: 400px;
 }
 
-.section-3 .sec-3-content .pack .pack-inside .pack-text h3 {
+.section-3 .sec-3-content .pack .pack-inside .pack-text h4 {
   color: #1894FF;
 }
 

@@ -70,8 +70,14 @@ nav {
     background-color: royalblue;
     color: white;  
 } 
+.minus-sign {
+    display: none;
 }
 
+}
+.drop-down {
+    display: none;
+}
 
 
 //  section-1 //
@@ -266,7 +272,7 @@ nav {
             .pack-inside {
                 height: 400px;
                 .pack-text {
-                    h3 {
+                    h4 {
                         color: $mainColor;
                         
                     }
