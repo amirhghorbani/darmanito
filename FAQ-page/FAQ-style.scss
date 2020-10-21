@@ -1,0 +1,280 @@
+$mainColor : #1894FF;
+$brRadius : 10px;
+$pSize : 14px;
+
+@mixin boxShadow {
+    -webkit-box-shadow: 0px 0px 22px -10px rgba(24,148,255,0.5);
+    -moz-box-shadow: 0px 0px 22px -10px rgba(24,148,255,0.5);
+    box-shadow: 0px 0px 22px -10px rgba(24,148,255,0.5);
+}
+@mixin downBtn {
+    background-color: #E6F3FF;
+    color: $mainColor;
+    font-weight: bold;
+    transition: .2s;
+}
+@mixin inputField {
+    width: 90%;
+    height: 55px;
+    background-color: #F9F9F9;
+    margin-top: 45px;
+    border-radius: $brRadius;
+}
+@mixin button {
+    background-color: $mainColor;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    border-radius: $brRadius ;
+}
+@mixin input {
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    font-size: $pSize;
+    margin-top: 10px;
+}
+
+* {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+/* navbar */
+
+nav {
+    height: 80px;
+    ul {
+        height: 55px;
+    }
+    li {
+        padding: 5px;
+        a {
+            opacity: .7;
+        }
+        a:hover {
+            border-bottom: 2px solid $mainColor;
+        }
+    }
+   .download-btn {
+    @include downBtn;
+}
+.download-btn:hover {
+    background-color: royalblue;
+    color: white;  
+} 
+.minus-sign {
+    display: none;
+}
+
+}
+.drop-down {
+    display: none;
+}
+
+/* sec-2 */
+.sec-2 {
+    h5::before {
+        content: '';
+        width: 1px;
+        height: 24px;
+        border: 2px solid #00DE9A;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    div.bg-white {
+        @include boxShadow;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: .5s ease-out;
+    }
+    div.bg-white:hover {
+        filter: grayscale(0);
+        opacity: 1;
+        color: $mainColor;
+    }
+    div.d-inline {
+        left: 50px;
+        top: -10px;
+        font-size: 10px;
+    }
+   .grey {
+       filter: grayscale(100%);
+       opacity: .5;
+   }
+   #plus {
+       background-image: url('../img/FAQ-p-img/plus.svg');
+   }
+   .minus-icon {
+       background-image: url('../img/FAQ-p-img/minus.svg');
+   }
+}
+
+
+
+
+
+
+/* section-6 */
+
+.section-6 {
+    width: 100%;
+    height: 130px;
+    background-color: #1894FF;
+    margin-top: 100px;
+    
+}
+.section-6 .section-6-content {
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-6-content-text {
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+.section-6-content-text h2 {
+    font-size: 20px;
+    color: white;
+}
+.section-6-content-text p {
+    color: white;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.section-6-content-contact-box {
+    width: 20%;
+    height: 52px;
+    background-color: #2361B5;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.section-6-content-contact-box img {
+    object-fit: contain;
+} 
+
+/* footer */
+
+.footer {
+    width: 80%;
+    height: 220px;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-box {
+    height: inherit;
+}
+.box-1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-box-1-title {
+    display: flex;
+    height: 50px;
+}
+.footer-box-1-title .footer-title-text {
+    margin-right: 10px;
+}
+.footer-box-1-title .footer-title-text h4 {
+    font-size: 18px;
+}
+.footer-box-1-title .footer-title-text p {
+    padding: 10px 10px 0 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.footer-box-1-text p:first-child {
+    font-weight: bold;
+}
+.footer-box-1-text p:last-child {
+    font-weight: lighter;
+    margin-top: 11px;
+}
+.footer-box-1-social-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+.footer-box-1-social-logos a img:hover {
+    color: rgb(24, 148, 255);
+}
+
+
+/* box-2 */
+.box-2 {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-2 a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+.box-2 a > h5 {
+    color: #2361B5;
+}
+.box-2 a:hover {
+    border-bottom: 1px solid #1894FF;
+}
+.box-2 a > h5::before {
+    content: '';
+    width: 1px;
+    height: 24px;
+    border: 1px solid #00DE9A;
+    margin-left: 10px;
+    border-radius: 10px;
+} 
+.box-2 a > p {
+    color: #616161;
+}
+
+/* box-3 */
+.box-3 {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-3 a {
+    text-decoration: none;
+    color: #616161;
+    font-size: 14px;
+}
+.box-3 a:hover {
+    border-bottom: 1px solid #1894FF;
+}
+
+/* box-4 */
+.box-4 {
+    width: 35%;
+}
+.footer-box-4-btns {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box-4-btns a img {
+    width: 180px;
+}

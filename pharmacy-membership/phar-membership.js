@@ -27,20 +27,22 @@ button.addEventListener('click', (event) => {
     const inputValue = input.value;
  if (inputValue === '' || !inputValue.match(phoneno)) {  
         input.parentElement.style.border = '3px solid red';
-        const newP = document.createElement('p');
-        newP.setAttribute('class', 'pStyle');
-        newP.textContent = 'شماره نامعتبر است !!!!';
-        input.parentElement.parentElement.insertBefore(newP, input.parentElement.parentElement.childNodes[4]);
+        const div = document.createElement('div');
+        div.setAttribute('role', 'alert');
+        div.classList.add('alert', 'alert-danger', 'pStyle', 'w-75');
+        div.textContent = 'شماره نامعتبر است !!!!';
+        input.parentElement.parentElement.insertBefore(div, input.parentElement.parentElement.childNodes[4]);
     }else {
         input.parentElement.style.border = '3px solid green';
-        const newP = document.createElement('p');
-        newP.textContent = 'شماره معتبر است ';
-        newP.setAttribute('class', 'pStyle');
-        newP.style.color = 'green';
-        input.parentElement.parentElement.insertBefore(newP, input.parentElement.parentElement.childNodes[4]);
+        const div = document.createElement('div');
+        div.setAttribute('role', 'alert');
+        div.classList.add('alert', 'alert-success', 'pStyle', 'w-75');
+        div.style.color = 'green';
+        div.textContent = 'شماره معتبر است !!!!';
+        input.parentElement.parentElement.insertBefore(div, input.parentElement.parentElement.childNodes[4]);
     }
     setTimeout(function() {
-        $('p.pStyle').remove();
+        $('div.pStyle').remove();
         $('#input-parent').css('border', 'none');
     }, 2000)
 });

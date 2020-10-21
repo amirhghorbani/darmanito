@@ -1,0 +1,255 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 767.98px) { 
+   div.container-fluid {
+       overflow: hidden;
+       height: 2900px;
+   }
+   nav.navbar {
+       width: 90% !important;
+   }
+   ul.navbar-nav {
+       display: none !important;
+   }
+    nav button.btn {
+       display: none;
+   }
+   .minus-sign {
+       display: block !important;
+   }
+.nav-bar, .download-btn {
+    display: none;
+}
+.drop-down {
+   width: 100%;
+   margin: 50px auto;
+   text-align: right;
+}
+.hide {
+    display: none;
+}
+.drop-down button {
+    background-color: #E6F3FF;
+    border: none;
+    color: #1894FF;
+    height: 52px;
+    width: 40%;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+.drop-down button:hover {
+   -webkit-box-shadow: 0px 0px 9px 1px	rgb(24, 148, 255, .5);
+   -moz-box-shadow:    0px 0px 9px 1px	rgb(24, 148, 255, .5);
+   box-shadow:         0px 0px 9px 1px	rgb(24, 148, 255, .5);
+}
+.drop-down hr{
+    margin-top: 27px;
+    width: 100%;
+    opacity: .2;
+}
+.dropdown-content {
+    width: 80%;
+    margin: 32px auto;
+}
+.dropdown-content h3 {
+    color: #1894FF;
+}
+.dropdown-content h3::before {
+   content: '';
+   width: 1px;
+   height: 24px;
+   border: 2px solid #1894FF;
+   margin-left: 7px;
+   border-radius: 10px;
+}
+.dropdown-content ul {
+    width: 75%;
+    margin: 33px auto;
+}
+.dropdown-content ul li{
+    list-style: none;
+    margin-top: 30px;
+}
+.dropdown-content ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.dropdown-content ul li a:hover {
+    border-bottom: 1px solid #1894FF;
+    padding-bottom: 10px;
+}
+
+  
+
+/* section-6 */
+
+.section-6 {
+    height: 200px;
+}
+.section-6 .section-6-content {
+    flex-direction: column;
+    width: 80%;
+    height: 190px;
+    justify-content: space-evenly;
+}
+.section-6-content-text {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.section-6-content-contact-box {
+    width: 100%;
+}
+
+/* footer */
+
+.footer {
+    width: 80% !important;
+    margin-top: 50px;
+}
+.box-1 {
+    width: 100%;
+}
+.footer-box-1-social-logos {
+    align-self: center;
+}
+.box-2, .box-3 , .box-4 {
+    display: none;
+}
+
+}
+@media (min-width: 500px) and (max-width: 767px) {
+    .section-6-content-contact-box {
+        width: 60%;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 767.98px) and (max-width: 1023px) { 
+    .container-fluid {
+        overflow: hidden;
+        height: 2500px;
+    }
+    nav.navbar {
+        width: 90% !important;
+    }
+
+/* section-6 */
+
+.section-6 .section-6-content {
+    width: 90%;
+}
+.section-6-content-text {
+    width: 55%;
+    align-items: center;
+}
+.section-6-content-contact-box {
+    width: 35%;
+}
+
+/* footer */
+.footer {
+    width: 90% !important;
+}
+.box-1 {
+    width: 30%;
+ }
+ .box-2 {
+     width: 17%;
+ }
+ .footer-box-1-social-logos {
+     width: 100%;
+     justify-content: space-evenly;
+ }
+ 
+ .box-4 {
+    width: 21%;
+}
+.footer-box-4-btns {
+    flex-direction: column;
+    text-align: right;
+    height: 90px;
+}
+.footer-box-4-btns a img {
+    width: 130px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 850px) and (max-width: 1023px) { 
+
+   
+ } */
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 1024px) and (max-width: 1199.98px) { 
+    .container-fluid {
+        overflow: hidden;
+        height: auto;
+    }
+    nav.navbar {
+        width: 85% !important;
+    }
+    
+    .section-6 .section-6-content {
+        width: 85%;
+    }
+    .section-6-content-text {
+        width: 45%;
+    }
+    .section-6-content-contact-box {
+        width: 30%;
+    }
+    .footer{
+        width: 85% !important;
+    }
+    .box-4 {
+        width: 20%;
+    }
+    .footer-box-4-btns {
+        flex-direction: column;
+        height: 120px;
+        text-align: right;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container-fluid {
+        overflow: hidden;
+        height: auto;
+    }
+    nav.navbar {
+        width: 80% !important;
+    }
+    
+    .section-6 .section-6-content {
+        width: 80%;
+    }
+    .section-6-content-text {
+        width: 40%;
+        align-items: center;
+    }
+    .section-6-content-contact-box {
+        width: 30%;
+    }
+    .footer{
+        width: 80% !important;
+    }
+    .box-4 {
+        width: 20%;
+    }
+    .footer-box-4-btns {
+        flex-direction: column;
+        height: 120px;
+        text-align: right;
+    }
+ }
+
+ 

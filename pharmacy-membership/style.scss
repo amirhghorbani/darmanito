@@ -107,6 +107,13 @@ nav {
             margin: 7px 10px;
         }
     }
+    .pStyle {
+        text-align: right;
+        color: red;
+        font-size: 12px;
+        position: relative;
+        top: 40px;
+    }
 
     .sec1-content {
         width: 50%;
@@ -139,9 +146,9 @@ nav {
         .ph-content {
             width: 80%;
             height: 75px;
-            
             display: flex;
         }
+        
         .logo {
             background-color: $mainColor;
             text-align: center;
