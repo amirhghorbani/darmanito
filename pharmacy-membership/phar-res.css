@@ -525,7 +525,8 @@
         width: 80%;
     }
     .section-6-content-text {
-        width: 45%;
+        width: 40%;
+        align-items: center;
     }
     .section-6-content-contact-box {
         width: 30%;
