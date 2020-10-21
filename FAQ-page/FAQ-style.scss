@@ -116,6 +116,15 @@ nav {
    }
 }
 
+p.d-none::before {
+    content: '';
+    width: 1px;
+    height: 24px;
+    border: 2px solid #00DE9A;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
 
 
 

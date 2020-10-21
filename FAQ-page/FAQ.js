@@ -20,9 +20,28 @@ function iconChange(event) {
 $(document).ready(function () {
     $(plusSign).click(function (e) { 
         e.preventDefault();
-        $('p.d-none').toggleClass('d-block');
+        $('p.plus0').toggleClass('d-block');
     });
 });
+$(document).ready(function () {
+    $('#plus1').click(function (e) { 
+        e.preventDefault();
+        $('p.plus1').toggleClass('d-block');
+    });
+});
+$(document).ready(function () {
+    $('#plus2').click(function (e) { 
+        e.preventDefault();
+        $('p.plus2').toggleClass('d-block');
+    });
+});
+$(document).ready(function () {
+    $('#plus3').click(function (e) { 
+        e.preventDefault();
+        $('p.plus3').toggleClass('d-block');
+    });
+});
+
 
 
 
