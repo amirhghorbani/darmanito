@@ -10,7 +10,7 @@
 @media screen and (max-width: 767.98px) { 
    div.container-fluid {
        overflow: hidden;
-       height: 1500px;
+       height: auto;
    }
    nav.navbar {
        width: 90% !important;
@@ -94,22 +94,19 @@
 .sec-2 {
     flex-direction: column-reverse !important;
     width: 85% !important;
-    height: 1050px;
+    height: 1000px;
     justify-content: space-between;
 }
 .sec-2 .forms {
     width: 100% !important;
 }
-div.pr-5 {
-    padding: 0 !important;
-}
-.mapouter, .gmap_canvas  {
-    width: 100% !important;
+.map {
+    width: 100%;
 }
 .map-content {
     flex-direction: column;
-    width: 100% !important;
-    height: 220px;
+    width: 95% !important;
+    height: 200px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -117,8 +114,8 @@ div.pr-5 {
     background-color: white;
     border-radius: 10px;
     position: absolute;
-    bottom: -50px;
-    left: 0px;
+    bottom: -140px;
+    left: 8px;
     -webkit-box-shadow: 0px 0px 9px 1px	rgba(201, 201, 201, 0.5);
     -moz-box-shadow:    0px 0px 9px 1px	rgba(224, 224, 224, 0.5);
     box-shadow:         0px 0px 9px 1px	rgba(211, 211, 211, 0.5);
@@ -126,22 +123,21 @@ div.pr-5 {
 .map-email {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 90%;
     justify-content: space-between;
 }
 .map-email p {
     display: block;
 }
 .map-email p , h6{
-    font-size: 14px;
+    font-size: 12px;
 }
 .map-address {
-    width: 85% !important;
+    width: 90% !important;
 }
-iframe {
-    width: 100% !important;
+.map-address {
+    font-size: 12px;
 }
-
 /* section-6 */
 
 .section-6 {
@@ -179,12 +175,59 @@ iframe {
 }
 
 }
-
 @media (min-width: 500px) and (max-width: 767px) {
     .section-6-content-contact-box {
         width: 60%;
     }
+
     /* sec-2 */
+    .sec-2 {
+        flex-direction: column-reverse !important;
+        width: 85% !important;
+        height: 1200px;
+        justify-content: space-between;
+    }
+    .sec-2 .forms {
+        width: 100% !important;
+    }
+    .map {
+        width: 100%;
+    }
+    .map-content {
+        flex-direction: column;
+        width: 70% !important;
+        height: 200px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -140px;
+        left: 100px;
+        -webkit-box-shadow: 0px 0px 9px 1px	rgba(201, 201, 201, 0.5);
+        -moz-box-shadow:    0px 0px 9px 1px	rgba(224, 224, 224, 0.5);
+        box-shadow:         0px 0px 9px 1px	rgba(211, 211, 211, 0.5);
+    }
+    .map-email {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .map-email p {
+        display: block;
+    }
+    .map-email p , h6{
+        font-size: 16px;
+    }
+    .map-address {
+        width: 90% !important;
+    }
+    .map-address {
+        font-size: 16px;
+    }
 }
 
 
@@ -201,25 +244,23 @@ iframe {
 
     /* sec-2 */
 
-    .sec-2 {
-        flex-direction: column-reverse !important;
+     /* sec-2 */
+     .sec-2 {
+        
         width: 85% !important;
-        height: 1050px;
+        height: 500px;
         justify-content: space-between;
     }
     .sec-2 .forms {
-        width: 100% !important;
+        width: 45% !important;
     }
-    div.pr-5 {
-        padding: 0 !important;
-    }
-    .mapouter, .gmap_canvas  {
-        width: 100% !important;
+    .map {
+        width: 50%;
     }
     .map-content {
         flex-direction: column;
-        width: 100% !important;
-        height: 220px;
+        width: 90% !important;
+        height: 200px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
@@ -227,17 +268,16 @@ iframe {
         background-color: white;
         border-radius: 10px;
         position: absolute;
-        bottom: -50px;
-        left: 0px;
+        bottom: 30pxpx;
+        left: 18px;
         -webkit-box-shadow: 0px 0px 9px 1px	rgba(201, 201, 201, 0.5);
         -moz-box-shadow:    0px 0px 9px 1px	rgba(224, 224, 224, 0.5);
         box-shadow:         0px 0px 9px 1px	rgba(211, 211, 211, 0.5);
     }
-
     .map-email {
         display: flex;
         flex-wrap: wrap;
-        width: 85%;
+        width: 90%;
         justify-content: space-between;
     }
     .map-email p {
@@ -247,14 +287,12 @@ iframe {
         font-size: 14px;
     }
     .map-address {
-        width: 85% !important;
+        width: 90% !important;
     }
-    iframe {
-        width: 100% !important;
+    .map-address {
+        font-size: 14px;
     }
-    
-
-/* section-6 */
+    /* section-6 */
 
 .section-6 .section-6-content {
     width: 90%;
@@ -293,7 +331,11 @@ iframe {
 .footer-box-4-btns a img {
     width: 130px;
 }
+
 }
+    
+
+
 
 /* Large devices (desktops, 992px and up) */
 
@@ -309,23 +351,21 @@ iframe {
     /* sec-2 */
 
     .sec-2 {
+        
         width: 85% !important;
-        height: 600px;
+        height: 500px;
         justify-content: space-between;
     }
     .sec-2 .forms {
-        width: 50% !important;
+        width: 45% !important;
     }
-    div.pr-5 {
-        padding: 0 !important;
-    }
-    .mapouter, .gmap_canvas  {
-        width: 100% !important;
+    .map {
+        width: 50%;
     }
     .map-content {
         flex-direction: column;
-        width: 100% !important;
-        height: 220px;
+        width: 90% !important;
+        height: 200px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
@@ -333,17 +373,16 @@ iframe {
         background-color: white;
         border-radius: 10px;
         position: absolute;
-        bottom: 0;
-        left: 0px;
+        bottom: 30pxpx;
+        left: 18px;
         -webkit-box-shadow: 0px 0px 9px 1px	rgba(201, 201, 201, 0.5);
         -moz-box-shadow:    0px 0px 9px 1px	rgba(224, 224, 224, 0.5);
         box-shadow:         0px 0px 9px 1px	rgba(211, 211, 211, 0.5);
     }
-
     .map-email {
         display: flex;
         flex-wrap: wrap;
-        width: 85%;
+        width: 90%;
         justify-content: space-between;
     }
     .map-email p {
@@ -353,11 +392,12 @@ iframe {
         font-size: 14px;
     }
     .map-address {
-        width: 85% !important;
+        width: 90% !important;
     }
-    iframe {
-        width: 100% !important;
+    .map-address {
+        font-size: 14px;
     }
+    
     
 
     
