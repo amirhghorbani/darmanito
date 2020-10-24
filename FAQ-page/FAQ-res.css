@@ -166,49 +166,53 @@
     }
     /* sec-2 */
 
-.sec-2 .w-100 {
-    overflow: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    justify-content: space-between !important;
-    width: 100% !important;
-    height: 150px;
-}
-.sec-2 .w-100 .grey {
-    width: 20%;
-    height: 150px;
-}
-
-.sec-2 .w-100 .grey .px-5 {
-    height: inherit;
-    padding: 0 !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.sec-2 .w-100 .grey img {
-    width: 50px;
-}
-.border-bottom p{
-    font-size: 12px;
-}
-
+    .sec-2 .w-100 {
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+    .sec-2 .w-100 .grey {
+        width: 120px;
+        height: 120px;
+    }
+    .sec-2 .w-100 .grey .badge {
+        display: none !important;
+    }
+    .sec-2 .w-100 .grey .px-5 {
+        height: 120px;
+        padding: 0 !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .sec-2 .w-100 .grey .px-5 p {
+        margin: 0 !important;
+    }
+    .sec-2 .w-100 .grey img {
+        width: 50px;
+    }
+    .border-bottom p{
+        font-size: 12px;
+    }
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 767.98px) and (max-width: 1023px) { 
+@media only screen and (min-width: 767.98px) and (max-width: 1023px) { 
     .container-fluid {
         overflow: hidden;
-        height: 2500px;
+        height: auto;
     }
     nav.navbar {
         width: 90% !important;
     }
 
     /* sec-2 */
+    .sec-2 {
+        width: 90% !important;
+    }
 
     .sec-2 .w-100 .grey {
         width: 120px;
