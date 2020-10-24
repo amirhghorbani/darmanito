@@ -167,8 +167,11 @@
     /* sec-2 */
 
     .sec-2 .w-100 {
+        overflow: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
         justify-content: space-between !important;
-        width: 100% !important;
+        width: 170% !important;
     }
     .sec-2 .w-100 .grey {
         width: 120px;
